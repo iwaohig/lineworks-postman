@@ -20,7 +20,7 @@ Postman API Network で公開されている LINE WORKS API のコレクショ�
 2. 環境「LINE WORKS API (User Account)」を開き、`clientId` と `clientSecret` に Developer Console のアプリの値を入れます。`botId` は Bot を使うときに入れます
 3. 画面右上の環境の選択で「LINE WORKS API (User Account)」を選びます
 
-`userId` の既定値は `me` (トークンの持ち主自身) です。`me` を受け付けない API もあるので、その場合はユーザー ID かログイン ID を指定してください。
+`userId` の既定値は `me` (認証されたユーザー自身) です。`me` は一部の API でだけ使えます ([LINE WORKS API 共通仕様の「me キーワード」](https://developers.worksmobile.com/jp/docs/api-call#me-keyword))。使えない API では、ドキュメントの `userId` の説明に従ってユーザー ID かログイン ID を指定してください。
 
 雛形に入っている値 (`userId` の `me`) は、インポートすると共有値 (Postman のクラウドに同期される値) として登録されます。`clientId` / `clientSecret` は空のまま配っているので、Client ID や Client Secret を雛形に書き足してから共有しないでください。
 

@@ -5,7 +5,7 @@
 
 Postman API Network で公開されている LINE WORKS API のコレクションを、User Account 認証 (OAuth 2.0) で試すための補助ファイルと、Qiita 記事の画像を置いています。
 
-- Qiita 記事: [Postman で LINE WORKS API を試す (公式コレクションを Fork して Bot からメッセージを送るまで)](https://qiita.com/iwaohig/private/394f4378222268e7bd2a) (限定共有)
+- Qiita 記事: [Postman で LINE WORKS API を試す (公式コレクションを Fork して users/me を呼ぶまで)](https://qiita.com/iwaohig/private/394f4378222268e7bd2a) (限定共有)
 
 ## 内容
 
